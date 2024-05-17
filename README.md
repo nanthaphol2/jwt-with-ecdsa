@@ -11,5 +11,5 @@ openssl ec -in ec_private.pem -pubout -out ec_public.pem
 
 ## Change EC PRIVATE KEY to PRIVATE KEY
 
-openssl pkcs8 -topk8 -nocrypt -in ec_private.pem -out private_key_pkcs8.pem!
+openssl pkcs8 -topk8 -nocrypt -in ec_private.pem -out private_key_pkcs8.pem
 
